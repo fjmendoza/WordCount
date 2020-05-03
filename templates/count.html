@@ -1,0 +1,18 @@
+<form action= "{% url 'home' %}">
+  <input type = "submit", name= "goback", value = "Go Back to Home">
+</form>
+
+<h1>counting how many words you got<h1>
+<h2>you have {{count}} words</h2>
+<h3>Here is what you gave me:</h3>
+{{fulltext}}
+
+
+<h4> Word Count </h4>
+
+{% for y, counttotal in dictionary %}
+
+{{y}} — {{counttotal}}
+<br/>
+
+{% endfor %}

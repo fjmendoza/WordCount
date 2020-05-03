@@ -1,0 +1,14 @@
+<h1> What is this? </h1>
+
+<h6> This is a word counter i made during this online programming course</h6>
+<br/>
+<h7> we will se if this really works</h7>
+
+<br/>
+
+<a Href="http://google.com"> Just Take me to Google </a>
+<br/>
+
+<form action = "{% url "home" %}">
+  <input type="submit" name="" value="Take Me Back Home">
+  </form>
