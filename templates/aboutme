@@ -12,3 +12,9 @@
 <form action = "{% url "home" %}">
   <input type="submit" name="" value="Take Me Back Home">
   </form>
+
+
+This is my first python django project
+
+
+Copyright 2020
